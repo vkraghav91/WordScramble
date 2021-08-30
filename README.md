@@ -1,1 +1,4 @@
 # WordScramble
+This project was a last chance to review the fundamentals of SwiftUI before we move on to greater things with the next app. Still, we managed to cover some useful new things, not least List, onAppear, Bundle, fatalError(), UITextChecker, and more, and you have another app you can extend if you want to.
+
+One thing I want to pick out before we finish is my use of fatalError(). If you read code from my own projects on GitHub, or read some of my more advanced tutorials, you’ll see that I rely on fatalError() a lot as a way of forcing code to shut down when something impossible has happened. The key to this technique – the thing that stops it from being recklessly dangerous – is knowing when a specific condition ought to be impossible. That comes with time and practice: there is no one quick list of all the places it’s a good idea to use fatalError(), and instead you’ll figure it out with experience.
